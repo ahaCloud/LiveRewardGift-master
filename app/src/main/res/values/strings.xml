@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LiveRewardGift</string>
+    <string name="gift_tip">送出%1$s</string>
+</resources>

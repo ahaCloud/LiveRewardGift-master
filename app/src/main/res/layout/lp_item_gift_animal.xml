@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-18dp"
+        android:paddingLeft="10dp">
+    <RelativeLayout
+        android:id="@+id/rlparent"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_radius_animal_surrender"
+        android:paddingRight="15dp">
+
+        <LinearLayout
+            android:id="@+id/text_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="3dp"
+            android:paddingLeft="45dp"
+            android:paddingTop="3dp"
+           >
+
+            <TextView
+                android:id="@+id/send_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johnny"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginRight="40dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gift_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="送出"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="1dp"
+        android:src="@mipmap/icon_livesdk_comment_user_default"
+        />
+    <ImageView
+        android:id="@+id/ivgift"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-6dp"
+        android:visibility="invisible"
+        />
+    <com.example.yuhengyi.liverewardgift.MagicTextView
+        android:id="@+id/giftNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/ivgift"
+        android:includeFontPadding="false"
+        android:text="x1"
+        android:visibility="gone"
+        app:outerShadowDx="3"
+        app:outerShadowDy="3"
+        app:outerShadowRadius="1"
+        android:textColor="#FF8600"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:strokeColor="#f15353"
+        app:strokeJoinStyle="round"
+        app:strokeWidth="1" />
+    </RelativeLayout>
+</RelativeLayout>
