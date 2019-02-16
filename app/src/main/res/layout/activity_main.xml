@@ -25,14 +25,13 @@
     <LinearLayout
         android:background="#ffffffff"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/gift_1"
             android:layout_width="0dp"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:text="礼物1"
             android:gravity="center"
             android:textSize="14sp"
@@ -44,7 +43,7 @@
             android:text="礼物2"
             android:gravity="center"
             android:textSize="14sp"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:layout_weight="1" />
 
         <Button
@@ -53,7 +52,7 @@
             android:text="礼物3"
             android:gravity="center"
             android:textSize="14sp"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>
